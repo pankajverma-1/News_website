@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    background-color: #EDEFF4;
+}
+
+#navbarScroll .active {
+    color: #1E2024;
+    background: #FFCC00;
+}
+
+#navbarScroll .nav-link:hover {
+    color: #1E2024;
+    background: #FFCC00;
+    cursor: pointer;
+}
+
+#navbarScroll .nav-link {
+    padding: 20px 15px;
+    color: #FFFFFF;
+    font-weight: 500;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.bg-primary {
+    background-color: #FFCC00 !important;
+    color: rgb(52, 51, 51);
+}
+
+
+/* Start carousel Slider edit */
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0.25rem;
+    left: 5%;
+    padding-bottom: 1.25rem;
+    text-align: left;
+    z-index: 2000;
+}
+
+.carousel-indicators {
+    right: 20px;
+    bottom: 0;
+    top: 20px;
+    left: 0;
+    justify-content: flex-end;
+    margin-right: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 21px;
+    background-color: #FFCC00 !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    display: none;
+}
+
+
+/* Overlay slider image */
+
+.overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(183deg, rgba(255, 255, 255, 0) 25%, rgba(0, 0, 0, 1) 100%);
+}
+
+
+/* End carousel Slider edit */
+
+
+/* responsive Display */
+
+.row {
+    margin-right: 0;
+}
+
+.row>* {
+    padding-right: 0;
+}
+
+
+/*End responsive Display */
+
+
+/* start main slider side screen photo */
+
+.img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.sidePhoto {
+    position: absolute;
+    bottom: 0.5rem;
+    margin: 10px;
+}
+
+
+/* multi line textTruncate */
+
+.textTruncate {
+    margin-top: 0.5rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.textTruncate3 {
+    margin-top: 0.5rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+
+/* end main slider side screen photo */
+
+
+/*start Headline Slider */
+
+.NewsheadingSlider {
+    background-color: black;
+}
+
+.NewsheadingSlider .carousel-inner {
+    width: 75%;
+}
+
+.NewsheadingSlider .carousel-caption {
+    display: flex;
+    padding: 0;
+    height: -webkit-fill-available;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    left: 10%;
+}
+
+.NewsheadingSlider .carousel-indicators {
+    display: none;
+}
+
+.NewsheadingSlider .carousel-control-next,
+.NewsheadingSlider .carousel-control-prev {
+    display: flex;
+    width: 3rem;
+    background-color: black !important;
+    color: #1E2024;
+    opacity: 1;
+    height: 3rem;
+    border: 2px solid white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.NewsheadingSlider .carousel-control-prev {
+    left: auto;
+    right: 4rem;
+}
+
+.NewsheadingSlider .carousel-control-next {
+    right: 0.5rem;
+}
+
+
+/*end Headline Slider */
+
+
+/* start featuredNews slider */
+
+.featuredNews {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 10px solid #FFCC00 !important;
+    border: 1px solid black;
+}
+
+.react-multi-carousel-list {
+    position: unset !important;
+}
+
+.position-relative .react-multiple-carousel__arrow {
+    top: 13px;
+    border-radius: 0%;
+    background-color: #FFCC00 !important;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+}
+
+.react-multiple-carousel__arrow--left {
+    left: unset !important;
+    right: 4.2rem;
+}
+
+
+/* categoryTag */
+
+.categoryTagValue:hover {
+    cursor: pointer;
+    background-color: rgb(91 89 89);
+    color: white;
+    border-color: white;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #1E2024;
+}
+
+.footer .justify-content-around {
+    justify-content: flex-start !important;
+}
+
+.footer .justify-content-around span {
+    margin-right: 10px;
+}
+
+.bottomFooter {
+    background-color: black;
+}

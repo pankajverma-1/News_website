@@ -1,0 +1,99 @@
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    /*start Headline Slider */
+    .NewsheadingSlider .carousel-caption {
+        left: 0;
+    }
+    .NewsheadingSlider .carousel-inner {
+        width: 60%;
+    }
+    .NewsheadingSlider .carousel-control-prev {
+        left: auto;
+        right: 4rem;
+    }
+    .NewsheadingSlider .carousel-control-next {
+        right: 0.5rem;
+    }
+    /*end Headline Slider */
+    /* multi line textTruncate */
+    .textTruncate {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        margin-top: 0.5rem;
+    }
+    /* multipleSlider */
+    li.react-multi-carousel-item.react-multi-carousel-item {
+        margin: 0.5rem 0.25rem;
+        width: 164px !important;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    /*start Headline Slider */
+    .NewsheadingSlider .carousel-inner {
+        width: 70%;
+    }
+    .NewsheadingSlider .carousel-control-prev {
+        left: auto;
+        right: 10rem;
+    }
+    .NewsheadingSlider .carousel-control-next {
+        right: 6rem;
+    }
+    /*end Headline Slider */
+    /* multipleSlider */
+    li.react-multi-carousel-item.react-multi-carousel-item {
+        margin: 0.5rem 0.5rem;
+        width: 216px !important;
+    }
+    .react-multiple-carousel__arrow--left {
+        left: unset !important;
+        right: 4.7rem;
+    }
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    /*start Headline Slider */
+    .NewsheadingSlider .carousel-inner {
+        width: 75%;
+    }
+    /*end Headline Slider */
+    /* multipleSlider */
+    li.react-multi-carousel-item.react-multi-carousel-item {
+        margin: 0.5rem 0.5rem;
+        width: 218px !important;
+    }
+    .react-multiple-carousel__arrow--left {
+        left: unset !important;
+        right: 5.5rem;
+    }
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    /*start Headline Slider */
+    .NewsheadingSlider .carousel-inner {
+        width: 80%;
+    }
+    /*end Headline Slider */
+    /* multipleSlider */
+    li.react-multi-carousel-item.react-multi-carousel-item {
+        margin: 0.5rem 0.5rem;
+        width: 207px !important;
+    }
+    .react-multiple-carousel__arrow--left {
+        left: unset !important;
+        right: 6rem;
+    }
+}
