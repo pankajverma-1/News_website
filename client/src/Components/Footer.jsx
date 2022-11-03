@@ -15,7 +15,7 @@ const Footer = () => {
     const url =
       'https://newsapi.org/v2/everything?domains=ndtv.com&language=en&apiKey=85a36557fe7b4b7d8de7d1e51a645842';
     // const { data } = await axios.get(url);
-    const { data } = {
+    const data = {
       status: 'ok',
       totalResults: 7307,
       articles: [
